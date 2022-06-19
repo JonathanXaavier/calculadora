@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(83, 83, 83, 0.795);
+}
+ .calculadora{
+    width: 360px;
+    height: 510px;
+    background-color: black;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+}
+#tela{
+    padding-right: 30px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    line-height: 150px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 3em;
+}
+input{
+    width: 87.4px;
+    height: 70px;
+    float: left;
+    border: none;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 2px;
+    font-size: 23px;
+    font-weight: bold;
+}
+#ac{
+    
+}
+#mais-ou-menos{
+    
+}
+#porce{
+    
+}
+#numerozero{
+    width: 174.8px;
+    border-radius: 40px;
+}
+#n7{
+    
+}
+#n8{
+    
+}
+#n9{
+    
+}
+#n4{
+    
+}
+#n5{
+    
+}
+#n6{
+    
+}
+#n1{
+    
+}
+#n2{
+    
+}
+#n3{
+    
+}
+#ponto{
+    
+}
+#div{
+    background-color: orangered;
+}
+#multi{
+    background-color: orangered;
+}
+#sub{
+    background-color: orangered;
+}
+#soma{
+    background-color: orangered;
+}
+#resultado{
+    background-color: orangered;
+}
+
+
+
+
+

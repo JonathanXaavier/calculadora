@@ -1,102 +1,29 @@
-@charset "UTF-8";
-
+@charset "UTF-8"
+*{
+    padding:0px;
+    margin:0px;
+}
 body{
-    background-color: rgba(83, 83, 83, 0.795);
+    background-image: linear-gradient(90deg,#E4F2E7,#97A6A0,#93BFB7 );
+    margin: 10px    
 }
- .calculadora{
-    width: 360px;
-    height: 510px;
-    background-color: black;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    padding-right: 10px;
-    padding-left: 10px;
-    border-radius: 10px;
-
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-#tela{
-    padding-right: 30px;
-    height: 150px;
-    background-color: black;
-    color: white;
-    text-align: right;
-    line-height: 150px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    font-size: 3em;
+.box{
+    background-color:white;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-input{
-    width: 87.4px;
-    height: 70px;
-    float: left;
-    border: none;
-    border-radius: 50%;
-    margin-top: 5px;
-    margin-left: 2px;
-    font-size: 23px;
-    font-weight: bold;
-}
-#ac{
-    
-}
-#mais-ou-menos{
-    
-}
-#porce{
-    
-}
-#numerozero{
-    width: 174.8px;
-    border-radius: 40px;
-}
-#n7{
-    
-}
-#n8{
-    
-}
-#n9{
-    
-}
-#n4{
-    
-}
-#n5{
-    
-}
-#n6{
-    
-}
-#n1{
-    
-}
-#n2{
-    
-}
-#n3{
-    
-}
-#ponto{
-    
-}
-#div{
-    background-color: orangered;
-}
-#multi{
-    background-color: orangered;
-}
-#sub{
-    background-color: orangered;
-}
-#soma{
-    background-color: orangered;
-}
-#resultado{
-    background-color: orangered;
-}
-
-
 
 
 
